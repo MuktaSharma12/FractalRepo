@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Thefractalproject.fractalapp]">
+  <test thread-count="5" name="com.qa.fractal_functionaltests(failed)">
+    <classes>
+      <class name="com.qa.fractal_tests.LiveReportPage">
+        <methods>
+          <include name="VerifyLiveReports"/>
+          <include name="VerifyAllWindowsExceptMainWindow"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.fractal_tests.LiveReportPage -->
+      <class name="com.qa.fractal_tests.InsightsPage">
+        <methods>
+          <include name="VerifyMetricSearch"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.fractal_tests.InsightsPage -->
+      <class name="com.qa.fractal_tests.LoginHome">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="VerifytheLogo_HomePage"/>
+        </methods>
+      </class> <!-- com.qa.fractal_tests.LoginHome -->
+    </classes>
+  </test> <!-- com.qa.fractal_functionaltests(failed) -->
+</suite> <!-- Failed suite [Thefractalproject.fractalapp] -->
